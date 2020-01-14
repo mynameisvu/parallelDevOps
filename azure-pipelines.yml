@@ -15,8 +15,6 @@ trigger:
 - master
 
 stages:
-
-stages:
 #First Stage on Ubuntu
 - stage: UbuntuQAEnvCheck
   jobs:
