@@ -25,7 +25,7 @@ stages:
     vmImage: 'ubuntu-latest'
 
   steps:
-    checkout: none
+  - checkout: none
   - script: echo Hello, world!
     displayName: 'Run a one-line script'
 
